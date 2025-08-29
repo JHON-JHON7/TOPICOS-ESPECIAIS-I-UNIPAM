@@ -1,11 +1,10 @@
 <?php
-// Declaração das variáveis conforme solicitado
 
 // Primeira variável: atribuindo um número real (float)
 $numeroReal = 124.45;
 
 // Segunda variável: atribuindo um texto (string)
-$textoVariavel = "Olá, este é um texto de exemplo!";
+$textoVariavel = "Hello World!";
 
 // Exibindo os tipos das variáveis para verificação
 echo "Tipo da primeira variável: " . gettype($numeroReal) . "\n";
@@ -39,9 +38,7 @@ echo "Tipo da primeira variável após alteração: " . gettype($numeroReal) . "
 if (is_int($numeroReal)) {
     echo "Agora a primeira variável É do tipo inteiro!\n";
     echo "Conteúdo da primeira variável (número): " . $numeroReal . "\n";
-    echo "Conteúdo da segunda variável (texto): " . $textoVariável . "\n";
+    echo "Conteúdo da segunda variável (texto): " . $textoVariavel . "\n";
 } else {
     echo "A primeira variável ainda NÃO é do tipo inteiro.\n";
 }
-
-?>
